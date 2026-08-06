@@ -1,0 +1,39 @@
+[
+  {
+    "id": "story-1785856245",
+    "title": "Story 5",
+    "date": "Aug 04, 2026",
+    "words": 850,
+    "readingMinutes": 3,
+    "length": "balanced",
+    "body": [
+      "Kaya was born in steel. Her world was metal walls, humming air vents, gray food cubes, and a sun that never moved — just a projection across the dome. Like most children in Dome City-9, she had never touched a tree. She worked maintenance for sanitation drones. Dirty work, crawling through grease and trash, replacing filters and fixing arms. One morning, she opened a drone's belly… and froze. Inside, nestled in a cracked crate, was something impossible.",
+      "Glowing faintly under a shard of broken glass. Kaya stared for minutes before hiding it in her jumpsuit. She returned to her maintenance cubby, used a shattered mug as a pot, and her drinking water to feed it. But the dome's sensors noticed. \"Organic anomaly detected,\" the AI announced. She knew the old access tunnels — the forgotten parts of the city. There were rumors of exits, of people who had left and never returned.",
+      "She wandered sunburned and starving. Then she saw it: a shimmering dome hidden among rusted solar towers. They called themselves \"The Heartseed.\"\n\nDescendants of environmentalists and scientists who had preserved a pocket of life when the world began to die. \"It's not just a plant,\" one of them whispered. Proof that Earth still remembers.\"\n\nKaya stayed. Years later, as green returned to gray, her name was whispered in domes and deserts alike. The girl who found the last garden. The girl who grew the next one."
+    ]
+  },
+  {
+    "id": "demo-1",
+    "title": "The Lighthouse at Marrow Bay",
+    "date": "Aug 4, 2026",
+    "words": 42180,
+    "readingMinutes": 168,
+    "length": "balanced",
+    "body": [
+      "Ines Calloway returns to Marrow Bay after eleven years away, inheriting a lighthouse her grandmother kept running long after the shipping lanes moved south.",
+      "As Ines restores the light, the keeper's log entries start matching her own days — the weather, the visitors, a boat that never docks.",
+      "In the final act, Ines discovers her grandmother kept the lamp burning for a vessel that went down decades ago, choosing to let the light go dark on purpose."
+    ]
+  },
+  {
+    "id": "demo-2",
+    "title": "Salt & Static",
+    "date": "Aug 1, 2026",
+    "words": 18940,
+    "readingMinutes": 76,
+    "length": "short",
+    "body": [
+      "A radio engineer in a decommissioned desert station picks up a broadcast that shouldn't exist, and spends a summer triangulating a voice that keeps describing her own kitchen."
+    ]
+  }
+]
