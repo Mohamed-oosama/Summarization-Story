@@ -6,6 +6,37 @@ Summarization Story AI pairs a Python NLP engine (TF‑IDF extractive + BART/Ara
 
 ---
 
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Repository Structure](#️-repository-structure)
+- [Tech Stack](#-tech-stack)
+- [Architecture](#️-architecture)
+- [Installation](#-installation)
+- [Requirements](#-requirements)
+- [Usage](#-usage)
+- [API Documentation](#-api-documentation)
+- [Machine Learning](#-machine-learning)
+- [NLP Pipeline](#-nlp-pipeline)
+- [Frontend](#️-frontend)
+- [Backend](#️-backend)
+- [Database](#️-database)
+- [Configuration](#-configuration)
+- [Environment Variables](#-environment-variables)
+- [Screenshots](#️-screenshots)
+- [Workflow](#-workflow)
+- [Dependencies](#-dependencies)
+- [Performance](#-performance)
+- [Future Improvements](#-future-improvements)
+- [Troubleshooting](#️-troubleshooting)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Authors](#-authors)
+- [Acknowledgments](#-acknowledgments)
+
+---
+
 ## 📖 Overview
 
 **What it does**
@@ -127,7 +158,15 @@ Summarization-Story/
 
 ---
 
-## 🧰 Technologies Used
+## 🧰 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,react,fastapi,pytorch,sklearn,ts,tailwind,vite" alt="Tech stack icons" />
+</p>
+
+<p align="center">
+  <sub>Streamlit, Hugging Face Transformers, and spaCy aren't on skillicons.dev — see the full breakdown below.</sub>
+</p>
 
 | Category | Technologies |
 |---|---|
@@ -156,6 +195,12 @@ Summarization-Story/
 ## 🏗️ Architecture
 
 Two independent request paths exist in this repository, sharing the same NLP core.
+
+> **Prefer an image over raw Mermaid?** Not every Git host renders Mermaid identically, so a designed diagram (via [Excalidraw](https://excalidraw.com/) or [draw.io](https://app.diagrams.net/)) exported to `docs/images/architecture.png` often reads better than the flowcharts below — see [Screenshots](#️-screenshots) for the full asset convention. Once added, embed it here with:
+>
+> ```markdown
+> ![Architecture](docs/images/architecture.png)
+> ```
 
 ### Path 1 — React web app → FastAPI backend (primary)
 
@@ -495,6 +540,37 @@ curl -X POST http://localhost:8000/api/summarize \
 ## 🖼️ Screenshots
 
 **Not found.** No image assets exist in this repository beyond `public/favicon.ico` — there are no screenshots, demo GIFs, or UI mockups checked in.
+
+To add them, create a `docs/images/` folder and drop in the corresponding files:
+
+```text
+docs/
+ └── images/
+      home.png
+      upload.png
+      processing.png
+      result.png
+      history.png
+      architecture.png
+      workflow.png
+      demo.gif
+```
+
+Then embed each one in this README, either as HTML (for control over width/centering):
+
+```html
+<p align="center">
+  <img src="docs/images/home.png" width="1000"/>
+</p>
+```
+
+or as plain Markdown:
+
+```markdown
+![Home](docs/images/home.png)
+```
+
+Suggested minimum set: the **home/upload screen**, **processing state**, **result view**, **history page**, an **architecture diagram** (a designed version of the flowcharts in [Architecture](#️-architecture) — see the note there), a **workflow diagram** (see [Workflow](#-workflow)), and a short **demo GIF** of the end-to-end flow. That combination — 5 screenshots + architecture diagram + workflow diagram + demo GIF + badges — is roughly what takes a README from "functional" to the polish level of larger open-source projects (OpenAI, LangChain, Hugging Face repos, etc.).
 
 ---
 
