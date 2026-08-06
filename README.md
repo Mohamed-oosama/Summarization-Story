@@ -157,16 +157,17 @@ Summarization-Story/
 - **`.lovable/project.json`** — identifies this project as scaffolded from Lovable.dev's `tanstack_start_ts_current` template.
 - 
 ---
+
 <p align="center">
-  <img src="src/assets/home.png" width="100%">
+  <img src="src/assets/Screenshot%202026-08-06%20180956.png" width="100%">
 </p>
 
 <p align="center">
-  <img src="src/assets/upload.png" width="100%">
+  <img src="src/assets/Screenshot%202026-08-06%20181012.png" width="100%">
 </p>
 
 <p align="center">
-  <img src="src/assets/summary.png" width="100%">
+  <img src="src/assets/Screenshot%202026-08-04%20182450.png" width="100%">
 </p>
 
 ---
