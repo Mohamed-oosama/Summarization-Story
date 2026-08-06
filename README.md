@@ -155,6 +155,19 @@ Summarization-Story/
 - **`src/routes/`** — TanStack Start's file-based router. Each `.tsx` file here maps directly to a URL; see `src/routes/README.md` (included in the repo) for the exact naming conventions.
 - **`src/components/ui/`** — the complete shadcn/ui primitive set (Radix UI + Tailwind), used throughout `site/` components.
 - **`.lovable/project.json`** — identifies this project as scaffolded from Lovable.dev's `tanstack_start_ts_current` template.
+- 
+---
+<p align="center">
+  <img src="src/assets/home.png" width="100%">
+</p>
+
+<p align="center">
+  <img src="src/assets/upload.png" width="100%">
+</p>
+
+<p align="center">
+  <img src="src/assets/summary.png" width="100%">
+</p>
 
 ---
 
